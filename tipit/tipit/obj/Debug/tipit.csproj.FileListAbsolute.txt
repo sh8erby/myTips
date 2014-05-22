@@ -1,0 +1,6 @@
+c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\bin\tipit.dll.config
+c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\bin\tipit.dll
+c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\bin\tipit.pdb
+c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\obj\Debug\tipit.csprojResolveAssemblyReference.cache
+c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\obj\Debug\tipit.dll
+c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\obj\Debug\tipit.pdb
