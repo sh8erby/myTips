@@ -57,29 +57,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap-theme.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\app\app.js" />
+    <Content Include="Content\app\controller\controller.js" />
+    <Content Include="Content\app\providers\router.js" />
+    <Content Include="Content\app\views\home.html" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
-    <Content Include="index2.html" />
-    <Content Include="js\angular-route.js" />
-    <Content Include="js\angular.min.js" />
-    <Content Include="js\app.js" />
-    <Content Include="js\components.js" />
-    <Content Include="js\invoice1.js" />
-    <Content Include="js\tipits.js" />
+    <Content Include="Content\app\libs\angular\angular-route.js" />
+    <Content Include="Content\app\libs\angular\angular.min.js" />
     <Content Include="packages.config" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="js\angular.js" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\jquery-1.9.0.js" />
-    <Content Include="js\jquery-1.9.0.min.js" />
-    <Content Include="tipits.html" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\app\libs\angular\angular.js" />
+    <Content Include="Content\app\libs\js\bootstrap.js" />
+    <Content Include="Content\app\libs\js\bootstrap.min.js" />
+    <Content Include="Content\app\libs\js\jquery-1.9.0.js" />
+    <Content Include="Content\app\libs\js\jquery-1.9.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,7 +92,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\" />
+    <Folder Include="Content\app\directives\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

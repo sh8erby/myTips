@@ -4,3 +4,9 @@ c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\bin\tipit.pdb
 c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\obj\Debug\tipit.csprojResolveAssemblyReference.cache
 c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\obj\Debug\tipit.dll
 c:\users\arnold\documents\visual studio 2013\Projects\tipit\tipit\obj\Debug\tipit.pdb
+D:\GitHub\myTips\tipit\tipit\bin\tipit.dll.config
+D:\GitHub\myTips\tipit\tipit\bin\tipit.dll
+D:\GitHub\myTips\tipit\tipit\bin\tipit.pdb
+D:\GitHub\myTips\tipit\tipit\obj\Debug\tipit.csprojResolveAssemblyReference.cache
+D:\GitHub\myTips\tipit\tipit\obj\Debug\tipit.dll
+D:\GitHub\myTips\tipit\tipit\obj\Debug\tipit.pdb
