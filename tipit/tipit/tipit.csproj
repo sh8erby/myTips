@@ -58,32 +58,54 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\app\app.js" />
-    <Content Include="Content\app\controller\controller.js" />
+    <Content Include="Content\app\config\utils.js" />
+    <Content Include="Content\app\controllers\controllers.js" />
+    <Content Include="Content\app\controllers\homeController.js" />
+    <Content Include="Content\app\directives\app.modal.js" />
+    <Content Include="Content\app\directives\list.people.js" />
+    <Content Include="Content\app\lib\angular\angular-animate.min.js" />
+    <Content Include="Content\app\lib\angular\angular-cookies.min.js" />
+    <Content Include="Content\app\lib\angular\angular-loader.min.js" />
+    <Content Include="Content\app\lib\angular\angular-resource.min.js" />
+    <Content Include="Content\app\lib\angular\angular-route.min.js" />
+    <Content Include="Content\app\lib\angular\angular-sanitize.min.js" />
+    <Content Include="Content\app\lib\angular\angular-touch.min.js" />
+    <Content Include="Content\app\lib\angular\angular.min.js" />
+    <Content Include="Content\app\lib\JQuery\jquery-1.9.1.min.js" />
+    <Content Include="Content\app\lib\ng-bootstrap\ui-bootstrap-0.10.0.js" />
+    <Content Include="Content\app\lib\ng-bootstrap\ui-bootstrap-0.10.0.min.js" />
+    <Content Include="Content\app\lib\ng-bootstrap\ui-bootstrap-tpls-0.10.0.js" />
+    <Content Include="Content\app\lib\ng-bootstrap\ui-bootstrap-tpls-0.10.0.min.js" />
+    <Content Include="Content\app\lib\toastr\toastr.min.js" />
     <Content Include="Content\app\providers\router.js" />
+    <Content Include="Content\app\services\clientServices.js" />
     <Content Include="Content\app\views\home.html" />
     <Content Include="Content\css\bootstrap-theme.css" />
     <Content Include="Content\css\bootstrap-theme.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\custom.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\toastr.min.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="index.html" />
-    <Content Include="Content\app\libs\angular\angular-route.js" />
-    <Content Include="Content\app\libs\angular\angular.min.js" />
+    <Content Include="Index.html" />
     <Content Include="packages.config" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\app\libs\angular\angular.js" />
-    <Content Include="Content\app\libs\js\bootstrap.js" />
-    <Content Include="Content\app\libs\js\bootstrap.min.js" />
-    <Content Include="Content\app\libs\js\jquery-1.9.0.js" />
-    <Content Include="Content\app\libs\js\jquery-1.9.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -92,7 +114,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\app\directives\" />
+    <Folder Include="Content\app\templates\modals\" />
+    <Folder Include="Content\app\templates\partials\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

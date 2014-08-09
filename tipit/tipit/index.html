@@ -1,21 +1,64 @@
-﻿
-<html ng-app="app">
+﻿<!DOCTYPE html>
+<html ng-app="ngscaffold">
 <head>
-    <title></title>
+    <meta name="viewport" content="width=device-width" />
+    <title>
+        Angular Scaffolding
+    </title>
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Content/css/font-awesome.css" rel="stylesheet" />
+    <link href="/Content/css/custom.css" rel="stylesheet" />
+    <!--<link href="/Content/css/toastr.min.css" rel="stylesheet" />-->
 
-    <!--lib-->
-    <script src="Content/app/libs/angular/angular.min.js"></script>
-    <script src="Content/app/libs/angular/angular-route.js"></script>
-
-    <!--content-->
-    <script src="Content/app/app.js"></script>
-    <script src="Content/app/controller/controller.js"></script>
+    <!--Core Includes-->
+    <script src="Content/app/lib/JQuery/jquery-1.9.1.min.js"></script>
+    <!--<script src="Content/app/lib/toastr/toastr.min.js"></script>-->
+    <script src="Content/app/lib/angular/angular.min.js"></script>
+    <script src="Content/app/lib/angular/angular-resource.min.js"></script>
+    <script src="Content/app/lib/angular/angular-route.min.js"></script>
+    <script src="Content/app/lib/ng-bootstrap/ui-bootstrap-tpls-0.10.0.min.js"></script>
     <script src="Content/app/providers/router.js"></script>
-    
-    <link href="Content/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--Angular Controllers and Services JS includes. Notice that this section comes before the app.js include right below-->
+
+    <script src="/Content/app/directives/app.modal.js"></script>
+    <script src="/Content/app/directives/list.people.js"></script>
+    <script src="/Content/app/services/clientServices.js"></script>
+    <script src="/Content/app/controllers/controllers.js"></script>
+    <script src="Content/app/controllers/homeController.js"></script>
+
+    <script src="/Content/app/app.js"></script>
+
 </head>
 <body>
-    test
-    <div ng-view></div>
+    <div>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../" class="navbar-brand">Angular Scaffold</a>
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar-main">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="row" style="margin-top:30px">
+                    &nbsp;
+                </div>
+                <div class="row" ng-view>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>

@@ -1,0 +1,60 @@
+﻿.order-master-list-viewport {
+    padding:5px;
+    max-height:500px;
+    overflow-y:scroll;
+}
+
+.card {
+    width:200px;
+    height:150px;
+    border-radius:3px;
+    background:rgba(256,256,256,.8);
+    padding:3px;
+    float:left;
+    margin-right:10px;
+    /*box-shadow: 0px 0px 5px 1px rgba(0,0,0,.2);*/
+    box-shadow: 0px 0px 5px rgba(0,0,0,.175);
+    /*border-color: #e7e7e7;*/
+    border: 1px solid rgba(0,0,0,.15);
+    cursor:pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px rgba(0,0,0,.175);
+}
+
+.card-header {
+    font-size: 12px;
+    font-weight: 700;
+    color: #979393;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top:3px;
+}
+.card hr {
+    margin-top:5px;
+    margin-bottom:5px
+}
+
+select {
+    cursor:pointer;
+}
+
+.page-header h1 {
+    text-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+.data-table tr {
+    cursor:pointer!important;
+}
+
+.data-table > thead > tr > th {
+    border-bottom:0px!important;
+    font-weight:700!important;
+    font-size:12px!important;
+}
+
+.viewport {
+    max-height:800px;
+    overflow-y:scroll;
+}
