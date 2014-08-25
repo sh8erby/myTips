@@ -1,50 +1,39 @@
 ﻿<!DOCTYPE html>
-<html ng-app="ngscaffold">
+<html ng-app="ngTips">
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>
         Angular Scaffolding
     </title>
-    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/Content/css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="/Content/css/font-awesome.css" rel="stylesheet" />
-    <link href="/Content/css/custom.css" rel="stylesheet" />
-    <!--<link href="/Content/css/toastr.min.css" rel="stylesheet" />-->
 
-    <!--Core Includes-->
-    <script src="Content/app/lib/JQuery/jquery-1.9.1.min.js"></script>
-    <!--<script src="Content/app/lib/toastr/toastr.min.js"></script>-->
-    <script src="Content/app/lib/angular/angular.min.js"></script>
-    <script src="Content/app/lib/angular/angular-resource.min.js"></script>
-    <script src="Content/app/lib/angular/angular-route.min.js"></script>
-    <script src="Content/app/lib/ng-bootstrap/ui-bootstrap-tpls-0.10.0.min.js"></script>
-    <script src="Content/app/providers/router.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="homeController.js"></script>
 
-    <!--Angular Controllers and Services JS includes. Notice that this section comes before the app.js include right below-->
-
-    <script src="/Content/app/directives/app.modal.js"></script>
-    <script src="/Content/app/directives/list.people.js"></script>
-    <script src="/Content/app/services/clientServices.js"></script>
-    <script src="/Content/app/controllers/controllers.js"></script>
-    <script src="Content/app/controllers/homeController.js"></script>
-
-    <script src="/Content/app/app.js"></script>
 
 </head>
-<body>
-    <div>
-       test
-        <div class="container">
-            <div class="col-lg-12">
-                <div class="row" style="margin-top:30px">
-                    &nbsp;
-                </div>
-                <div class="row" ng-view>
-
-                </div>
+<body ng-controller="homeController">
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="row" style="margin-top:30px">
+                &nbsp;
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Total</span>
+                <input type="text" ng-model="total" class="form-control" placeholder="Total">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Group</span>
+                <input type="text" ng-model="group" class="form-control" placeholder="Total">
+            </div>
+            <div>
+                <h3>10%: {{hereTen | currency}}  Total: {{hereTenTotal| currency}}</h3>
+                <h3>13%: {{hereThirteen | currency}}  Total: {{hereThirteenTotal| currency}}</h3>
+                <h3>15%: {{hereFifteen | currency}}  Total: {{hereFifteenTotal| currency}}</h3>
+                <h3>18%: {{hereEighteen | currency}}  Total: {{hereEighteenTotal| currency}}</h3>
+                <h3>20%: {{hereTwenty | currency}}  Total: {{hereTwentyTotal| currency}}</h3>
             </div>
         </div>
-
     </div>
 </body>
 </html>
